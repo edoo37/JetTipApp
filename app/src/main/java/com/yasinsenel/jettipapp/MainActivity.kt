@@ -47,7 +47,7 @@ class MainActivity : ComponentActivity() {
 fun MyApp(content : @Composable () -> Unit){
     JetTipAppTheme {
         Surface(
-            color = MaterialTheme.colorScheme.onBackground
+            color = MaterialTheme.colorScheme.background
         ) {
             content()
         }
